@@ -10,7 +10,10 @@
 #import "FMDB.h"
 
 @interface ViewController ()
-
+{
+    
+    NSInteger index;
+}
 @property (nonatomic, retain) FMDatabase *database;
 
 //在使用FMDatabase的时候需要考虑到线程问题，而是用FMDatabaseQueue则无需我们考虑
