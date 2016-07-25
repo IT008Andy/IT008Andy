@@ -11,7 +11,7 @@
 @interface ViewController ()
 {
     
-    
+    NSInteger index;
 }
 @end
 
